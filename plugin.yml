@@ -1,0 +1,33 @@
+name: OfroSkin
+version: '1.0'
+main: com.tsubasa.ofroskin.OfroSkin
+api-version: '1.20'
+prefix: [OfroSkin]
+authors: [Tsubasa_9602]
+description: 御風呂鯖のスキンシステムプラグインです。
+
+commands:
+  skin:
+    description: スキン適用GUIを開くコマンドです。
+  unskin:
+    description: 適用したスキンを解除できます。
+  adminskinbuy:
+    description: /adminskinbuy [<id>]で、指定したIDのスキンを購入判定に設定します。
+    permission: admin
+    permission-message: §cそのコマンドを実行する権限がありません！
+  adminskinremove:
+    description: /adminskinremove [<id>]で、指定したIDのスキンを未購入判定に設定します。
+    permission: admin
+    permission-message: §cそのコマンドを実行する権限がありません！
+  adminskinpossesscheck:
+    description: /adminskinremove [<id>]で、指定したIDのスキンの購入状況を表示します。
+    permission: admin
+    permission-message: §cそのコマンドを実行する権限がありません！
+  getallskin:
+    description: 全てのスキンを購入判定に設定します。
+    permission: admin
+    permission-message: §cそのコマンドを実行する権限がありません！
+  revealallskin:
+    description: 全てのスキンを未購入判定に設定します。
+    permission: admin
+    permission-message: §cそのコマンドを実行する権限がありません！
